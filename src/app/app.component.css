@@ -60,3 +60,11 @@
       width: 400px;
       margin: 30px auto;
    }
+
+   input.ng-invalid.ng-touched{
+    border: red 1px solid;
+   }
+
+   small{
+    color:red;
+   }
