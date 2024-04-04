@@ -32,14 +32,14 @@
     <span *ngIf="lastname">You entered {{lastname}}</span>
 
     <label for="email">Email</label>
-    <input type="email" id="email" placeholder="your last email.." name="email" ngModel required email>
+    <input type="email" id="email" placeholder="your last email.." name="email" [(ngModel)]="email" required email>
     </div>
 
     <button (click)="setDefaultValues()">Set default values</button>
     
     <div>
     <label for="country">Country</label>
-    <select name="c" id="country" name="country" [ngModel]="defaultCountry">
+    <select name="c" id="country" name="country" [(ngModel)]="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
@@ -49,7 +49,7 @@
     </div>
     <label for="gender">Gender:</label>
     <span *ngFor=" let gen of gender">
-      <input type="radio" id="{{gen.id}}" value="{{gen.value}}" name="gender" NgModel>
+      <input type="radio" id="{{gen.id}}" value="{{gen.value}}" name="genderValue" [(ngModel)]="genderValue">
       <label for="male">{{gen.value}}</label>
     </span>
 
@@ -57,11 +57,25 @@
 
     <label>Hobbies <i>(Optional)</i></label>
     <div class="form-inline">
-      <label><input type="checkbox" value="sports" name="hobbies" ngModel>Sports</label>
-      <label><input type="checkbox" value="movies" name="hobbies"ngModel>Movies</label>
-      <label><input type="checkbox" value="music" name="hobbies"ngModel>Music</label>
+      <label><input type="checkbox" value="sports" name="hobbies" >Sports</label>
+      <label><input type="checkbox" value="movies" name="hobbies">Movies</label>
+      <label><input type="checkbox" value="music" name="hobbies">Music</label>
     </div>
 
      <input type="submit" value="Submit" id="btn" >  <!--[disabled]="!myForm" -->
   </form>
+</div>
+
+  <p class="title">Form Data</p>
+<div class="form-data">
+  
+  <p>First Name: <b>{{firstname}}</b></p>
+  <p>Last Name: <b>{{lastname}}</b></p>
+  <p>Email : <b>{{email}}</b></p>
+  <p>Country: <b>{{country}}</b></p>
+  <p>Gender: <b>{{genderValue}}</b></p>
+</div>
+
+<div>
+  {{form?.value | json}}
 </div>

@@ -68,3 +68,13 @@
    small{
     color:red;
    }
+
+   .title{
+    text-align: center;
+   }
+
+   .form-data{
+    position: relative;
+    margin-left: 530px;
+    justify-content: center;
+   }
