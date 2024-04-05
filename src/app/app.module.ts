@@ -5,6 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { JvlComponent } from './jvl/jvl.component';
+import { FormsModule } from '@angular/forms';
+import { ExampleComponent } from './example/example.component';
 // import { Routes } from '@angular/router';
 // import { HomeComponent } from './home/home.component';
 // import { AboutComponent } from './about/about.component';
@@ -26,6 +29,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
   declarations: [
     AppComponent,
     LoginpageComponent,
+    JvlComponent,
+    ExampleComponent,
     // HomeComponent,
     // AboutComponent,
     // ContactComponent,
@@ -34,7 +39,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    FormsModule,
+    // AppRoutingModule,
     // RouterModule.forRoot(appRoute)
   ],
   providers: [],
