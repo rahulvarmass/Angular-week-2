@@ -4,49 +4,61 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginpageComponent } from './loginpage/loginpage.component';
-import { JvlComponent } from './jvl/jvl.component';
-import { FormsModule } from '@angular/forms';
-import { ExampleComponent } from './example/example.component';
-import { ChildComponent } from './child/child.component';
-import { ParentComponent } from './parent/parent.component';
-// import { Routes } from '@angular/router';
-// import { HomeComponent } from './home/home.component';
-// import { AboutComponent } from './about/about.component';
-// import { ContactComponent } from './contact/contact.component';
-// import { RouterModule, Routes } from '@angular/router';
-// import { ErrorComponent } from './error/error.component';
+// <<<<<<< branchOfMain
+// import { LoginpageComponent } from './loginpage/loginpage.component';
+// import { JvlComponent } from './jvl/jvl.component';
+// import { FormsModule } from '@angular/forms';
+// import { ExampleComponent } from './example/example.component';
+// import { ChildComponent } from './child/child.component';
+// import { ParentComponent } from './parent/parent.component';
+// // import { Routes } from '@angular/router';
+// // import { HomeComponent } from './home/home.component';
+// // import { AboutComponent } from './about/about.component';
+// // import { ContactComponent } from './contact/contact.component';
+// // import { RouterModule, Routes } from '@angular/router';
+// // import { ErrorComponent } from './error/error.component';
 
 
-// const appRoute: Routes =[
-//   // {path: '', component: HomeComponent},
-//   // {path: 'Home', component: HomeComponent},
-//   // {path: 'About', component: AboutComponent},
-//   // {path: 'Contact', component: ContactComponent},
-//   // {path: 'Courses', component: CoursesComponent},
-//   // {path: '**', component: ErrorComponent}
-// ]
+// // const appRoute: Routes =[
+// //   // {path: '', component: HomeComponent},
+// //   // {path: 'Home', component: HomeComponent},
+// //   // {path: 'About', component: AboutComponent},
+// //   // {path: 'Contact', component: ContactComponent},
+// //   // {path: 'Courses', component: CoursesComponent},
+// //   // {path: '**', component: ErrorComponent}
+// // ]
+// =======
+// import { FormsModule } from '@angular/forms';
+// >>>>>>> demoBranch
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginpageComponent,
-    JvlComponent,
-    ExampleComponent,
-    ChildComponent,
-    ParentComponent,
+// <<<<<<< branchOfMain
+//     LoginpageComponent,
+//     JvlComponent,
+//     ExampleComponent,
+//     ChildComponent,
+//     ParentComponent,
     
-    // HomeComponent,
-    // AboutComponent,
-    // ContactComponent,
-    // CoursesComponent,
-    // ErrorComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    // AppRoutingModule,
-    // RouterModule.forRoot(appRoute)
+//     // HomeComponent,
+//     // AboutComponent,
+//     // ContactComponent,
+//     // CoursesComponent,
+//     // ErrorComponent
+//   ],
+//   imports: [
+//     BrowserModule,
+//     FormsModule,
+//     // AppRoutingModule,
+//     // RouterModule.forRoot(appRoute)
+// =======
+//   ],
+//   imports: [
+//     BrowserModule,
+//     // AppRoutingModule,
+//     FormsModule
+// >>>>>>> demoBranch
   ],
   providers: [],
   bootstrap: [AppComponent]
