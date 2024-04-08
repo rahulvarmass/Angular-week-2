@@ -1,0 +1,357 @@
+/* 
+body{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: center;
+    
+}
+
+
+
+.f1{
+    width:406px;
+    height:62px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:256px;
+    right:881.15px;
+    bottom:450px;
+    left:78.85px;
+    border:1px solid #58657D65;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: #0000000F 3px 3px 15px;
+    border: 1px solid #58657D65;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.demobank{
+    top: 67px;
+    left: 61px;
+    width: 158px;
+    height: 39px;
+    text-align: left;
+    font: normal normal medium 33px/40px Big Caslon;
+    letter-spacing: 0px;
+    color: #004C97;
+    opacity: 1;
+    font-size: 33px;
+    position: absolute;
+}
+
+.wd{
+    position: absolute;
+    top: 181px;
+    left: 78px;
+    width: 276px;
+    height: 32px;
+    text-align: left;
+    font: normal normal 300 23px/34px Poppins;
+    letter-spacing: 0.14px;
+    color: #131523;
+    opacity: 1;
+}
+
+.userid{
+    width:43px;
+    height:19px;
+    position: absolute;
+    top:245px;
+    right:1205.15px;
+    bottom:502px;
+    left:117.85px;
+    font-size: 13px;
+    text-align: left;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+    color: #102245;
+    background-color: white;
+    opacity: 0.7;
+    position: relative;
+    z-index: 1;
+}
+ */
+
+/* .useridspace{
+    width:406px;
+    height:62px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:256px;
+    right:881.15px;
+    bottom:450px;
+    left:78.85px;
+    border:1px solid #58657D65;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: #0000000F 3px 3px 15px;
+    border: 1px solid #58657D65;
+    border-radius: 15px;
+    opacity: 1;
+    
+} */
+/* 
+.password{
+    width:19px;
+    height:64px;
+    position: relative;
+    z-index:1 ;
+    top:330px;
+    right:310px;
+    bottom:23px;
+    left:110.85px;
+    color:#CECECE;
+    opacity:70%;
+    font-size: 13px;
+    text-align: left;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+
+
+}
+
+.f2{
+    width:406px;
+    height:63px;
+    position: absolute;
+    top:333px;
+    right:881.15px;
+    bottom:372px;
+    left:78.85px; 
+    border-radius:15px;
+    color:#000000;
+    opacity: 1;
+    border:white;
+    box-shadow: #0000000F 3px 3px 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index: 1;
+    padding:15px;
+    font-size: 12px;
+}
+.kannu{
+    width:14.26px;
+    height:10.37px;
+    position: absolute;
+    top:357.54px;
+    right:908.42px;
+    bottom:400.08px;
+    left:443.32px;
+    border:2px solid #CECECE;
+    opacity: 100%;
+    
+}
+
+.karumuli{
+    color: red;
+    width: 3.89px;
+    height:3.89px;
+    position: relative;
+    top: 361px;
+    right:5.19px;
+    bottom:3.24px;
+    left: 449px;
+    border: 2px solid #CECECE;
+    opacity: 1;
+    
+
+}
+
+.fpass{
+    width:114px;
+    height:19px;
+    font-size: 13px;
+    text-align: left;
+    color:#004C97;
+    opacity:1;
+    position: absolute;
+    top: 409px;
+    left: 364px;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+}
+
+.signin{
+    width:48px;
+    height: 21px;
+    position: absolute;
+    top: 473px;
+    left: 258px;
+    text-align: left;
+    font-size: 15px;
+    font: normal normal medium 15px/23px Poppins;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 1;
+}
+
+.signinfield{
+    width:406px;
+    height:48px;
+    position:absolute;
+    top:459px;
+    left:79px;
+    border-radius: 24px;
+    opacity: 1;
+    background: transparent linear-gradient(90deg, #051A2D 0%, #004C97 100%) 0% 0% no-repeat padding-box;
+}
+
+.signinfield:hover{
+    
+    box-shadow: 5px -5px 10px blue, -5px 5px 10px blue;
+}
+
+.line1{
+    top: 554px;
+    left: 80px;
+    width: 143px;
+    height: 0px;
+    border: 1px solid #004C97;
+    opacity: 1;
+    position: absolute;
+
+}
+
+.orsigninusing{
+    position: absolute;
+    top: 545px;
+    left: 231px;
+    width: 96px;
+    height: 19px;
+    font-size: 13px;
+    text-align: left;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+    color: #004C97;
+    opacity: 1;
+    
+}
+
+.line2{
+    top: 554px;
+    left: 340px;
+    width: 146px;
+    height: 0px;                
+    border: 1px solid #004C97;
+    opacity: 1;
+    position: absolute;
+}
+
+.fingerprintspace{
+    top: 587px;
+    left: 79px;
+    width: 200px;
+    height: 62px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 15px #0000000F;
+    border-radius: 15px;
+    opacity: 1;
+    position: absolute;
+}
+
+.fingerprint{
+    top: 608px;
+    left: 159px;
+    width: 71px;
+    height: 19px;
+    text-align: left;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+    color: #102245;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.fp2158{
+    top: 606px;
+    left: 101px;
+    width: 12px;
+    height: 21px;
+    border: 2px solid #84A8CC;
+    opacity: 1;
+    position: absolute;
+    
+}
+
+.fp2156{
+    top: 615px;
+    left: 104px;
+    width: 4px;
+    height: 15px;
+    border: 2px solid #84A8CC;
+    opacity: 1;
+    position: absolute;
+}
+
+.fp2157{
+    top: 609px;
+    left: 110px;
+    width: 16px;
+    height: 25px;
+    border: 2px solid #004C97;
+    opacity: 1;
+    position: absolute;
+}
+
+.fp2154{
+    top: 600px;
+    left: 99px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    position: absolute;
+}
+
+.faceidspace{
+    top: 587px;
+    left: 289px;
+    width: 197px;
+    height: 62px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 15px #0000000F;
+    border-radius: 15px;
+    opacity: 1;
+    border: 2px;
+    position: absolute;
+    
+}
+
+.faceidxd{
+    position: absolute;
+    top: 601px;
+    left: 310px;
+    width: 33px;
+    height: 33px;
+    background: #004C97 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.faceid{
+    top: 608px;
+    left: 383px;
+    width: 50px;
+    height: 19px;
+    text-align: left;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: -0.26px;
+    color: #102245;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.image{
+    top: 74px;
+    left: 569px;
+    width: 759px;
+    height: 645px;
+    background: transparent url('src\assets\image1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+
+} */
