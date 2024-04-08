@@ -8,6 +8,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { JvlComponent } from './jvl/jvl.component';
 import { FormsModule } from '@angular/forms';
 import { ExampleComponent } from './example/example.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 // import { Routes } from '@angular/router';
 // import { HomeComponent } from './home/home.component';
 // import { AboutComponent } from './about/about.component';
@@ -31,6 +33,9 @@ import { ExampleComponent } from './example/example.component';
     LoginpageComponent,
     JvlComponent,
     ExampleComponent,
+    ChildComponent,
+    ParentComponent,
+    
     // HomeComponent,
     // AboutComponent,
     // ContactComponent,
