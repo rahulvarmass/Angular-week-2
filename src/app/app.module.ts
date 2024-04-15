@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 // <<<<<<< branchOfMain
 // import { LoginpageComponent } from './loginpage/loginpage.component';
 // import { JvlComponent } from './jvl/jvl.component';
@@ -38,8 +40,8 @@ import { AppComponent } from './app.component';
 //     LoginpageComponent,
 //     JvlComponent,
 //     ExampleComponent,
-//     ChildComponent,
-//     ParentComponent,
+    ChildComponent,
+    ParentComponent,
     
 //     // HomeComponent,
 //     // AboutComponent,
