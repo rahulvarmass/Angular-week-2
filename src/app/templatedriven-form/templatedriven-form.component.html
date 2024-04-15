@@ -1,0 +1,41 @@
+<div>
+    <form (ngSubmit)="runTheSubmitMethod(of)" #of="ngForm">
+        <div>
+        <label for="r1">Name</label>
+        <input type="text" id="n" name="n"  required>
+        </div>
+        <div>
+        <br>
+        <label for="r2">select the game</label>
+        <div>
+        <label for="g1">football</label>
+        <input type="radio" id="rb1" name="s21" ngModel required>
+        <br>
+        <label for="g2">Tennis</label>
+        <input type="radio" id="rb2" name="s21" ngModel required>
+        <br>
+        <label for="g3">UNO</label>
+        <input type="radio" id="rb3" name="s23" ngModel required>
+        <!-- <span *ngIf="of.dirty && of.invalid">sdf</span> -->
+        </div>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="s3" [ngModel]="e">
+        </div>
+        <br>
+        <label for="add">address</label>
+        <div>
+
+            <textarea name="add" id="add" cols="30" rows="10">
+            </textarea>
+        </div>
+        
+        <br>
+        <div>
+            <button type="submit">SUBMIT</button>
+        </div>
+        <button (click)="runIt()">click</button>
+    </form>
+</div>

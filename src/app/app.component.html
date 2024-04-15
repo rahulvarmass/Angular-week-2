@@ -1,4 +1,4 @@
-<!-- <div class="navbar">
+ <!-- <div class="navbar">
   <ul>
     <li><a [routerLink]="['Home']" [routerLinkActive]="'active'">Home</a></li>
     <li><a [routerLink]="['About']" [routerLinkActive]="'active'">About</a></li>
@@ -14,14 +14,14 @@
   <app-courses></app-courses>
   <app-home></app-home>
   <router-outlet> </router-outlet>
-</div> -->
+</div> 
 
-<!--  branchOfMain
-<!-- <app-loginpage></app-loginpage> -->
+  branchOfMain
+ <app-loginpage></app-loginpage> 
 
 
 
-<app-parent></app-parent>
+ <app-parent></app-parent>
 
 
 <div class="form">
@@ -70,7 +70,7 @@
       <label><input type="checkbox" value="music" name="hobbies">Music</label>
     </div>
 
-     <input type="submit" value="Submit" id="btn" >  <!--[disabled]="!myForm" -->
+     <input type="submit" value="Submit" id="btn" >  [disabled]="!myForm"
   </form>
 </div>
 
@@ -88,3 +88,7 @@
   {{form?.value | json}}
 </div>
  demoBranch -->
+
+ 
+ <app-templatedriven-form></app-templatedriven-form>
+ 
