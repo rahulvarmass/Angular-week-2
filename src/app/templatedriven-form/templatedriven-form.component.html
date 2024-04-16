@@ -1,5 +1,5 @@
 <div>
-    <form (ngSubmit)="runTheSubmitMethod(of)" #of="ngForm">
+    <!-- <form (ngSubmit)="runTheSubmitMethod(of)" #of="ngForm"> -->
         <div>
         <label for="r1">Name</label>
         <input type="text" id="n" name="n"  required>
@@ -22,7 +22,7 @@
         <br>
         <div>
             <label for="email">Email</label>
-            <input type="email" name="s3" [ngModel]="e">
+            <!-- <input type="email" name="s3" [ngModel]="e"> -->
         </div>
         <br>
         <label for="add">address</label>
@@ -37,5 +37,9 @@
             <button type="submit">SUBMIT</button>
         </div>
         <button (click)="runIt()">click</button>
-    </form>
+    <!-- </form> -->
+</div>
+<div>
+    <input matInput #tempin/>
+        <h1>{{tempin.value}}</h1>
 </div>

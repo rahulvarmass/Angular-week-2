@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TemplateFormComponent } from './tdform/tdform.component';
 import { TemplatedrivenFormComponent } from './templatedriven-form/templatedriven-form.component';
+import { TdftComponent } from './tdft/tdft.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { TemplatedrivenFormComponent } from './templatedriven-form/templatedrive
     AppComponent,
     TemplateFormComponent,
     TemplatedrivenFormComponent,
+    TdftComponent,
   ],
   imports: [
     BrowserModule,
