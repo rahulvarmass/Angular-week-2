@@ -1,13 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
-import { NgForm } from '@angular/forms';
-
+import { FormControl, NgForm, Validators } from '@angular/forms';
+// import { FormControl,Validators } from '@angular/forms';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  [x: string]: any;
+  email= new FormControl('thereal@email.com')
+}
+  // [x: string]: any;
 // <<<<<<< branchOfMain
 //   title="angular beginner"
   
@@ -56,4 +58,4 @@ export class AppComponent {
 
 // }
 // >>>>>>> demoBranch
-}
+

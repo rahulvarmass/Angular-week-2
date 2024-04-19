@@ -1,0 +1,13 @@
+:root{
+    --color-here: red;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+b{
+    color: var(--color-here);
+}
